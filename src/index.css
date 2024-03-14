@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: rgb(1, 9, 65);
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mainDIV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(9, 192, 253);
+}
+.name{
+    display: flex;
+    gap: 10px;
+}
+.name button{
+    background-color: rgba(255, 0, 0, 0.928);
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 70px;
+   cursor: pointer;
+
+}
+.btn button{
+    background-color:rgb(1, 10, 60);
+    width: 50px;
+}
+.btn button:hover{
+    background-color: rgba(255, 0, 0, 0.928);
+}
+/* .name input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    outline: none;
+} */
+.btn1{
+    display: flex;
+    /* background-color: white; */
+    width: 150px;
+}
+.btn1 input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+/* .btn1 button{
+    background-color: transparent;
+} */
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 15px;
+    border-top: 1px solid white;
+    width: 90%;
+    border-bottom: 1px solid  white;
+}
+.image{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.image img{
+    height: 20px;
+}
+.btn2{
+    background-color:white;
+    width: 410px;
+    border-radius: 30px;
+}
+.btn2 input{
+    width: 350px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+.btn2 button{
+    padding: 9px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.main button{
+    padding: 10px;
+}
+.text{
+
+}
+.text img{
+    height: 190px;
+    width: 200px;
+}
+.text h1{
+    font-size: 15px;
+    color: rgb(6, 95, 143);
+}
+.list{
+    text-align: center;
+}
+.list h1{
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+}
+.footer{
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer p{
+    font-size: 16px;
+}
+.f-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.f-icon h1{
+    font-size: 17px;
+}
+.f-icon i{
+    font-size: 23px;
+}
+.t-footer{
+    display: flex;
+    gap: 20px;
+}
+.img-footer{
+    display: flex;
+   
+}
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-footer-i{
+    background-color: rgb(1, 1, 71);
+    padding: 10px;
+}
